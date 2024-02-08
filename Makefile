@@ -2,7 +2,7 @@
 
 CC = nvcc
 NVCCFLAGS += -D_FORCE_INLINES -ccbin=$(CXX) -Xcompiler -fPIC $(COMMON_FLAGS) -arch sm_50 -D CUDA
-CFLAGS = -ansi -O2  -std=c++14
+CFLAGS = -ansi -O2  -std=c++11
 DFLAGS = -ansi -O0 -g 
 LFLAGS = -lm -ltiff
 
